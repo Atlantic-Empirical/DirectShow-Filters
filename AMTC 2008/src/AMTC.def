@@ -1,0 +1,8 @@
+LIBRARY AMTC.ax
+DESCRIPTION 'SMT AMTC'
+EXPORTS 
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE
+

@@ -1,0 +1,34 @@
+2001-11-14 John Adcock
+    Made to support any input file
+    Changed COM stuff to use IDL
+    Added IsOddFieldFirst property
+    Added DScalerPlugInName property
+    Updated Dialog to support new settings
+    Added About box page to clean up interface
+
+2001-11-13 John Adcock
+    Tidy up of code and made to mostly conform to coding standards 
+    Changed to use DScaler's structure throughout
+    Changed behaviour of history
+
+2001-11-10 Peter Gubanov
+	Poor framework to support DScaler plug-ins (namely, DI_GreedyH.dll),
+	support for VIDEOINFOHEADER2 and interlaced samples,
+	correct field output - generate 2 deinterlaced frames for each
+	incoming interlaced frame.
+
+2001-11-01 John Adcock
+    Checked in version to ship with Hauppauge XP drivers
+
+2001-09-20 Michael Eskin
+    Got working with WDM video card drivers
+
+2001-01-05 Peter Gubanov
+    Got working with mpeg filter
+    Now support four methods
+    
+2000-06-28 John Adcock (john@adcock8.freeserve.co.uk)
+	The first version!
+	It doesn't really do anything yet but I does show how 
+	you would go about writing a deinterlacing plug-in.
+

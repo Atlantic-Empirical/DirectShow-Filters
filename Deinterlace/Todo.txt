@@ -1,0 +1,29 @@
+ TODO:
+   
+   * Build a player app that includes the filter
+
+   * Find out what formats are required to support the majority of suitable capture cards
+
+   * Optimize
+
+   * Think about Mark Rejhon's 3/2 pulldown filter as well
+
+   * Support free compliers not just MSVC
+
+   * Add support for DScaler Filters as well
+
+   * Rewrite media type negotiation to use upstream filter's enumerator
+     Pass all media type changes from a downstream filter upstream and
+     perform deinterlacing only on known media types - otherwise
+     copy samples unmodified 
+
+   * Update code to match project coding standards
+
+   * Implement handling of field samples
+
+   * Need algorithm options panel?
+
+If you want to help please see the developer page at
+http://www.dscaler.org/
+
+

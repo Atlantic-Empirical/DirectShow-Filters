@@ -1,0 +1,9 @@
+LIBRARY		Deinterlace.ax
+DESCRIPTION	'SMT Deinterlace'
+EXPORTS
+
+DllGetClassObject PRIVATE
+DllCanUnloadNow PRIVATE
+DllRegisterServer PRIVATE
+DllUnregisterServer PRIVATE
+
