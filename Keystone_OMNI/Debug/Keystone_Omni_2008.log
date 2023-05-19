@@ -1,0 +1,269 @@
+﻿Build started 6/29/2012 11:13:23 PM.
+     1>Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\Keystone_OMNI\Keystone_Omni_2008.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Keystone_Omni_2008.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\DirectShow BaseClasses 2008\src" /ZI /nologo /W4 /WX- /Od /Oy- /D _WIN32_WINNT=0x0501 /D WINVER=0x0501 /D DBG=1 /D DEBUG /D _DEBUG /D INC_OLE2 /D STRICT /D WIN32 /D _WIN32 /D _MT /D _DLL /D _X86_=1 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"appincludes.h" /Fp".\Debug/Keystone_OMNI.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gz /TP /analyze- /errorReport:prompt src\Filter_IVMRMixerControl9.cpp src\Filter_IVMRFilterConfig9.cpp src\Filter_IAMFilterMiscFlags.cpp src\Filter_IKeystone.cpp src\Filter_IKeystoneProcAmp.cpp src\Filter_IKeystoneMixer.cpp src\Filter_IKeystoneQuality.cpp src\Filter_IMediaSeeking.cpp src\PropPage_Keystone.cpp src\CKeystone.cpp src\Gabor_Resizer.cpp src\Gabor_ShrinkV.cpp src\CSC_Manual.Cpp src\Varispeed.cpp src\Telecine.cpp src\TicksBurnIn.cpp src\GOPTimecode.cpp src\TrialMixing.cpp src\Guides.cpp src\OnScreenDisplay.cpp src\SampleGrabbing.cpp src\Framerate.cpp src\Logging.cpp src\MediaType.cpp src\BitmapRender.cpp src\BufferColor.cpp src\BufferCopy.cpp src\BufferSave.cpp src\MPEG2Decoder_libmpeg2.cpp src\MPEG2Decoder_mpegstill.cpp src\BarData.cpp src\General.cpp src\Scaling.cpp src\appincludes.cpp src\Main.cpp src\VideoPin.cpp src\VideoPin_Connected.cpp src\VideoPin_IKsPropertySet.cpp src\SubpicturePin.cpp src\SubpicturePin_Allocator.cpp src\SubpicturePin_IVMRStreamControl9.cpp src\Line21Pin.cpp src\Line21Pin_IVMRVideoStreamControl.cpp src\Line21Pin_SampleQueue.cpp src\OutputPin.cpp src\OutputPin_Connected.cpp src\Pipeline_Core.cpp src\Pipeline_DVDSubpicture.cpp src\Pipeline_Line21.cpp src\Pipeline_Video.cpp
+         Pipeline_Video.cpp
+         STREAMS.H included TWICE
+         STREAMS.H included TWICE
+         STREAMS.H included TWICE
+         STREAMS.H included TWICE
+         STREAMS.H included TWICE
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_video.cpp(123): warning C4189: 'hr' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_video.cpp(237): warning C4189: 'atpf' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_video.cpp(227): warning C4189: 'picture_structure' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_video.cpp(565): warning C4102: 'SkipTimeStamping' : unreferenced label
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_video.cpp(459): warning C4189: 'dstpitch' : local variable is initialized but not referenced
+         Pipeline_Line21.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_line21.cpp(42): warning C4189: 'hr' : local variable is initialized but not referenced
+         Pipeline_DVDSubpicture.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+         Pipeline_Core.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\pipeline_core.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         OutputPin_Connected.cpp
+         OutputPin.cpp
+         Line21Pin_SampleQueue.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\line21pin_samplequeue.cpp(47): warning C4189: 'bDebugMessage' : local variable is initialized but not referenced
+         Line21Pin_IVMRVideoStreamControl.cpp
+         Line21Pin.cpp
+         SubpicturePin_IVMRStreamControl9.cpp
+         SubpicturePin_Allocator.cpp
+         SubpicturePin.cpp
+         VideoPin_IKsPropertySet.cpp
+         VideoPin_Connected.cpp
+         VideoPin.cpp
+         Main.cpp
+         appincludes.cpp
+         Scaling.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\scaling.cpp(106): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _swab. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(870) : see declaration of 'swab'
+         General.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\general.cpp(16): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         BarData.cpp
+         MPEG2Decoder_mpegstill.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mpeg2decoder_mpegstill.cpp(229): warning C4189: 'pos' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mpeg2decoder_mpegstill.cpp(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mpeg2decoder_mpegstill.cpp(294): warning C4189: 'picture_2nd' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mpeg2decoder_mpegstill.cpp(372): warning C4189: 'rtStart' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mpeg2decoder_mpegstill.cpp(372): warning C4189: 'rtStop' : local variable is initialized but not referenced
+         MPEG2Decoder_libmpeg2.cpp
+         BufferSave.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\buffersave.cpp(5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\buffersave.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\buffersave.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         BufferCopy.cpp
+         BufferColor.cpp
+         BitmapRender.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\bitmaprender.cpp(56): warning C4189: 'dstpitch' : local variable is initialized but not referenced
+         MediaType.cpp
+         Logging.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\logging.cpp(187): warning C4189: 'progressive_sequence' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\logging.cpp(178): warning C4189: 'top_field_first' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\logging.cpp(191): warning C4189: 'atpf' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\logging.cpp(181): warning C4189: 'picture_structure' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\logging.cpp(184): warning C4189: 'repeat_first_field' : local variable is initialized but not referenced
+         Framerate.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\framerate.cpp(16): warning C4189: 'f10s' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\framerate.cpp(62): warning C4189: 'f10s' : local variable is initialized but not referenced
+         SampleGrabbing.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\samplegrabbing.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\samplegrabbing.cpp(58): warning C4701: potentially uninitialized local variable 'pbFormat' used
+         OnScreenDisplay.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+         Guides.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+         TrialMixing.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\trialmixing.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\trialmixing.cpp(9): warning C4706: assignment within conditional expression
+         GOPTimecode.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\goptimecode.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\goptimecode.cpp(73): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\goptimecode.cpp(48): warning C4706: assignment within conditional expression
+         TicksBurnIn.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(49): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(50): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(91): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(92): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(196): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(197): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(259): warning C4189: 'yuv1' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\mixer.h(260): warning C4189: 'yuv2' : local variable is initialized but not referenced
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\ticksburnin.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Telecine.cpp
+         Varispeed.cpp
+         CSC_Manual.Cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\csc_manual.cpp(263): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _swab. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(870) : see declaration of 'swab'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\csc_manual.cpp(270): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\csc_manual.cpp(452): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _swab. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(870) : see declaration of 'swab'
+         Gabor_ShrinkV.cpp
+         Gabor_Resizer.cpp
+         CKeystone.cpp
+         STREAMS.H included TWICE
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\ckeystone.cpp(42): warning C4189: 'LICENSEID_' : local variable is initialized but not referenced
+         PropPage_Keystone.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\proppage_keystone.cpp(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\proppage_keystone.cpp(223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Filter_IMediaSeeking.cpp
+         Filter_IKeystoneQuality.cpp
+         Filter_IKeystoneMixer.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\filter_ikeystonemixer.cpp(149): warning C4189: 'i' : local variable is initialized but not referenced
+         Filter_IKeystoneProcAmp.cpp
+         Filter_IKeystone.cpp
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\filter_ikeystone.cpp(322): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tpf\google drive\code\smt\filters\keystone_omni\src\filter_ikeystone.cpp(417): warning C4189: 'hr' : local variable is initialized but not referenced
+         Filter_IAMFilterMiscFlags.cpp
+         Filter_IVMRFilterConfig9.cpp
+         Filter_IVMRMixerControl9.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Keystone_OMNI.ax" /INCREMENTAL /NOLOGO "..\DirectShow BaseClasses 2008\debug\strmbasd.lib" src\SentinelKeyW.lib msvcrtd.lib quartz.lib vfw32.lib winmm.lib version.lib comctl32.lib olepro32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"src\CKeystone.def" /MANIFEST /ManifestFile:"Debug\Keystone_OMNI.ax.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tpf\Google Drive\CODE\SMT\Filters\Keystone_OMNI\Debug\Keystone_OMNI.pdb" /STACK:"2097152","2097152" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/Keystone_Omni.lib" /MACHINE:X86 /DLL Debug\Keystone_Properties.res
+         Debug\Keystone_OMNI.ax.embed.manifest.res
+         .\Debug/Filter_IVMRMixerControl9.obj
+         .\Debug/Filter_IVMRFilterConfig9.obj
+         .\Debug/Filter_IAMFilterMiscFlags.obj
+         .\Debug/Filter_IKeystone.obj
+         .\Debug/Filter_IKeystoneProcAmp.obj
+         .\Debug/Filter_IKeystoneMixer.obj
+         .\Debug/Filter_IKeystoneQuality.obj
+         .\Debug/Filter_IMediaSeeking.obj
+         .\Debug/PropPage_Keystone.obj
+         .\Debug/CKeystone.obj
+         .\Debug/Gabor_Resizer.obj
+         .\Debug/Gabor_ShrinkV.obj
+         .\Debug/CSC_Manual.obj
+         .\Debug/Varispeed.obj
+         .\Debug/Telecine.obj
+         .\Debug/TicksBurnIn.obj
+         .\Debug/GOPTimecode.obj
+         .\Debug/TrialMixing.obj
+         .\Debug/Guides.obj
+         .\Debug/OnScreenDisplay.obj
+         .\Debug/SampleGrabbing.obj
+         .\Debug/Framerate.obj
+         .\Debug/Logging.obj
+         .\Debug/MediaType.obj
+         .\Debug/BitmapRender.obj
+         .\Debug/BufferColor.obj
+         .\Debug/BufferCopy.obj
+         .\Debug/BufferSave.obj
+         .\Debug/MPEG2Decoder_libmpeg2.obj
+         .\Debug/MPEG2Decoder_mpegstill.obj
+         .\Debug/BarData.obj
+         .\Debug/General.obj
+         .\Debug/Scaling.obj
+         .\Debug/appincludes.obj
+         .\Debug/Main.obj
+         .\Debug/VideoPin.obj
+         .\Debug/VideoPin_Connected.obj
+         .\Debug/VideoPin_IKsPropertySet.obj
+         .\Debug/SubpicturePin.obj
+         .\Debug/SubpicturePin_Allocator.obj
+         .\Debug/SubpicturePin_IVMRStreamControl9.obj
+         .\Debug/Line21Pin.obj
+         .\Debug/Line21Pin_IVMRVideoStreamControl.obj
+         .\Debug/Line21Pin_SampleQueue.obj
+         .\Debug/OutputPin.obj
+         .\Debug/OutputPin_Connected.obj
+         .\Debug/Pipeline_Core.obj
+         .\Debug/Pipeline_DVDSubpicture.obj
+         .\Debug/Pipeline_Line21.obj
+         .\Debug/Pipeline_Video.obj
+         "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\Release\strmbase.lib"
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Keystone_OMNI.ax.embed.manifest" /manifest Debug\Keystone_OMNI.ax.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Keystone_Omni_2008.vcxproj -> C:\Users\Tpf\Google Drive\CODE\SMT\Filters\Keystone_OMNI\Debug\Keystone_OMNI.ax
+       RegisterOutput:
+         regsvr32 /s "Debug\Keystone_OMNI.ax"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Keystone_Omni_2008.unsuccessfulbuild".
+         Touching "Debug\Keystone_Omni_2008.lastbuildstate".
+     1>Done Building Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\Keystone_OMNI\Keystone_Omni_2008.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:46.69

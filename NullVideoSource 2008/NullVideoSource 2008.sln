@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NullVideoSource 2008", "NullVideoSource 2008.vcproj", "{F21F4E1E-98CD-4787-B666-899D963DE197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21F4E1E-98CD-4787-B666-899D963DE197}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F21F4E1E-98CD-4787-B666-899D963DE197}.Debug|Win32.Build.0 = Debug|Win32
+		{F21F4E1E-98CD-4787-B666-899D963DE197}.Release|Win32.ActiveCfg = Release|Win32
+		{F21F4E1E-98CD-4787-B666-899D963DE197}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

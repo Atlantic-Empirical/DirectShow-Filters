@@ -1,0 +1,29 @@
+﻿Build started 6/29/2012 10:32:56 PM.
+     1>Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AMTC_2008\AMTC 2008.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\AMTC_2008.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Release\AMTC_2008.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\DirectShow BaseClasses 2008\src" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D YUVGRAY_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"appincludes.h" /Fp".\Release/AMTC.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gz /TP /analyze- /errorReport:prompt src\AMTC.cpp src\IAMTC.cpp
+         AMTC.cpp
+         IAMTC.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/AMTC.ax" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\DirectShow\BaseClasses_2008\Release "..\DirectShow BaseClasses 2008\Release\strmbase.lib" msvcrt.lib winmm.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /DEF:".\src\AMTC.def" /MANIFEST /ManifestFile:".\Release\AMTC.ax.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/AMTC.pdb" /TLBID:1 /ENTRY:"DllEntryPoint@12" /DYNAMICBASE:NO /IMPLIB:".\Release/AMTC.lib" /MACHINE:X86 /DLL .\Release/AMTC.obj
+         .\Release/IAMTC.obj
+         "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\Release\strmbase.lib"
+     1>.\src\AMTC.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Release/AMTC.lib and object .\Release/AMTC.exp
+         AMTC 2008.vcxproj -> C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AMTC_2008\.\Release\AMTC.ax
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/AMTC.ax;#2" /manifest .\Release\AMTC.ax.intermediate.manifest
+       RegisterOutput:
+         regsvr32 /s ".\Release/AMTC.ax"
+       FinalizeBuildStatus:
+         Deleting file ".\Release\AMTC_2008.unsuccessfulbuild".
+         Touching ".\Release\AMTC_2008.lastbuildstate".
+     1>Done Building Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AMTC_2008\AMTC 2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65

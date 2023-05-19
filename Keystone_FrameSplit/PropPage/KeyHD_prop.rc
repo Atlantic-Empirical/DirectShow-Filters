@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include <windows.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AdapterPROP DIALOGEX 0, 0, 276, 127
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Output Frame Rates",IDS_STATIC,5,23,114,46
+    RTEXT           "Target",IDS_STATIC,6,41,24,8
+    RTEXT           "Actual",IDS_STATIC,6,54,24,8
+    CTEXT           "ATPF",IDS_STATIC,40,31,24,8
+    CTEXT           "FPS",IDS_STATIC,80,31,24,8
+    GROUPBOX        "Input Dimensions",IDS_STATIC,5,69,114,25
+    CONTROL         113,IDS_SeqLogo,"Static",SS_BITMAP,38,2,200,22
+    CTEXT           "[Width]",IDS_Width,29,79,25,8
+    CTEXT           "x",IDS_By,55,79,8,8
+    CTEXT           "[Height]",IDS_Height,65,79,27,8
+    GROUPBOX        "Output Dimensions",IDS_STATIC,5,95,114,25
+    CTEXT           "[Width]",IDS_OutWidth,30,104,25,8
+    CTEXT           "x",IDS_By2,56,104,8,8
+    CTEXT           "[Height]",IDS_OutHeight,66,104,27,8
+    CONTROL         "Feedback Clicks",IDC_FEEDBACK_CLICKS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,123,26,67,10
+    LTEXT           "Copyright © 2004-2005 Sequoyan Software LLC. ",
+                    IDS_STATIC,122,68,154,11
+    LTEXT           "All Rights Reserved.",IDS_STATIC,122,77,131,8
+    LTEXT           "Sequoyan Keystone",IDS_STATIC,122,52,125,8
+    LTEXT           "Version: 0.0.1 - 12/29/04",IDS_STATIC,122,60,133,8
+    LTEXT           "http://www.sequoyan.com",IDS_STATIC,122,85,129,8
+    PUSHBUTTON      "Get Data",IDC_BTN_GET_DATA,123,36,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Scrap",IDC_BTN_SCRAP,173,36,50,14,NOT WS_TABSTOP
+    CTEXT           "0",IDC_TARGET_FR_ATPF,33,40,37,11,SS_SUNKEN
+    CTEXT           "0",IDC_TARGET_FR,73,40,37,11,SS_SUNKEN
+    CTEXT           "0",IDC_ACTUAL_FR_ATPF,33,53,37,11,SS_SUNKEN
+    CTEXT           "0",IDC_ACTUAL_FR,73,52,37,11,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x30003fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "ActiveMovie", "Filter dll"
+            VALUE "CompanyName", "Sequoyan Software LLC."
+            VALUE "FileDescription", "Sequoyan Keystone"
+            VALUE "FileVersion", "0.0.1"
+            VALUE "InternalName", "DL_Adapter.ax"
+            VALUE "LegalCopyright", "Copyright © 2004-2005 Sequoyan Software LLC. All Rights Reserved."
+            VALUE "OLESelfRegister", "AM20"
+            VALUE "OriginalFilename", "Keystone.ax"
+            VALUE "ProductName", "Sequoyan Keystone"
+            VALUE "ProductVersion", "0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_AdapterPROP, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_Logo                BITMAP                  "bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE               "Keystone"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,8 @@
+LIBRARY L21G.ax
+DESCRIPTION 'Sequoyan L21G'
+EXPORTS 
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE
+

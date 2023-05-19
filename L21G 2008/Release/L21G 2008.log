@@ -1,0 +1,32 @@
+﻿Build started 6/29/2012 10:32:59 PM.
+     1>Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\L21G 2008\L21G 2008.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\L21G 2008.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Release\L21G 2008.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\DirectShow BaseClasses 2008\src" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D YUVGRAY_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gz /TP /analyze- /errorReport:prompt src\IL21G.cpp src\L21G.cpp
+         IL21G.cpp
+         L21G.cpp
+     1>src\L21G.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/L21G.ax" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\DirectShow\BaseClasses_2008\Release "..\DirectShow BaseClasses 2008\Release\strmbase.lib" msvcrt.lib quartz.lib vfw32.lib winmm.lib version.lib comctl32.lib olepro32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /DEF:".\src\L21G.def" /MANIFEST /ManifestFile:".\Release\L21G.ax.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/L21G.pdb" /TLBID:1 /ENTRY:"DllEntryPoint@12" /DYNAMICBASE:NO /IMPLIB:".\Release/L21G.lib" /MACHINE:X86 /DLL .\Release/IL21G.obj
+         .\Release/L21G.obj
+         "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\Release\strmbase.lib"
+     1>.\src\L21G.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Release/L21G.lib and object .\Release/L21G.exp
+         L21G 2008.vcxproj -> C:\Users\Tpf\Google Drive\CODE\SMT\Filters\L21G 2008\.\Release\L21G.ax
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/L21G.ax;#2" /manifest .\Release\L21G.ax.intermediate.manifest
+       RegisterOutput:
+         regsvr32 /s ".\Release/L21G.ax"
+       FinalizeBuildStatus:
+         Deleting file ".\Release\L21G 2008.unsuccessfulbuild".
+         Touching ".\Release\L21G 2008.lastbuildstate".
+     1>Done Building Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\L21G 2008\L21G 2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.47

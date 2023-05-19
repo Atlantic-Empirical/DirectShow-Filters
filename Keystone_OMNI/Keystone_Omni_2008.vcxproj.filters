@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{5e86b9dd-f31e-4215-9976-fb7b97cf9485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IVMRMixerControl9">
+      <UniqueIdentifier>{448d0cf1-70e9-4bec-bcb5-0d87f66cba70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IVMRFilterConfig9">
+      <UniqueIdentifier>{fe860de7-b07a-464a-9977-3836dfcd9420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IAMFilterMiscFlags">
+      <UniqueIdentifier>{4908074a-f6b1-420c-bc9e-689feb5b3813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IKeystone">
+      <UniqueIdentifier>{a2416cb1-5160-4afd-8aa4-7fb4d53d724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IKeystoneProcAmp">
+      <UniqueIdentifier>{7b12e198-0f02-4e49-b926-c42e41ea41eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IKeystoneMixer">
+      <UniqueIdentifier>{376f0356-90e6-49b4-bf31-1f31b96fee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IKeystoneQuality">
+      <UniqueIdentifier>{d8fea8ff-d238-4cfe-b908-16ce13269f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\IMediaSeeking">
+      <UniqueIdentifier>{6f015187-af70-4344-b12f-e3a8eba04a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PropPage">
+      <UniqueIdentifier>{d477a5ff-6085-459a-bc67-c3c0ac604023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3e557df9-196e-4278-90b6-a6b079f14dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filter">
+      <UniqueIdentifier>{ab511b88-36a5-49b6-9991-067b90b3db25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing">
+      <UniqueIdentifier>{bedee2fe-4f1c-4d71-b066-9d6ef07c2f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing\ProcAmp">
+      <UniqueIdentifier>{fbdfd8db-c9eb-4cce-ad48-8c7181d73871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing\Mixer">
+      <UniqueIdentifier>{f23ab0a5-7569-4a30-b892-a8b1c8577137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing\Scaling">
+      <UniqueIdentifier>{56964cfb-0ec2-44d9-880a-9820374a829d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing\CSC">
+      <UniqueIdentifier>{6f5e37a5-1f11-4f9f-9314-8b3f753591ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing\ColorFilters">
+      <UniqueIdentifier>{fc0681fb-0819-4660-8931-678987c27354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dongle">
+      <UniqueIdentifier>{4c12b4ed-e09c-4f95-9b01-d5efcb831322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling">
+      <UniqueIdentifier>{55a5adec-c108-46d8-95f3-4efb7eadad03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Varispeed">
+      <UniqueIdentifier>{39714f79-2923-4ad1-8ab8-157858e48b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Telecine">
+      <UniqueIdentifier>{f160b82d-1a20-4edb-95df-f74aee7aa708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Ticks">
+      <UniqueIdentifier>{c34acec6-812b-4636-b2a2-bcd980aa942c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\GOPTimecode">
+      <UniqueIdentifier>{94fa32c3-5dec-46f4-9024-b1ef192953b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\TrialMixing">
+      <UniqueIdentifier>{850c99af-8947-4b6b-a304-06edd0107384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Guides">
+      <UniqueIdentifier>{ba3cd897-4c8b-47ad-ba35-32f4631086ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\OnScreenDisplay">
+      <UniqueIdentifier>{2d3aea6d-5db7-44ae-93c7-784a9ad53ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\SampleGrabbing">
+      <UniqueIdentifier>{bc8ebeec-b975-43f8-817a-401724f2931f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Framerate">
+      <UniqueIdentifier>{8f366dd0-2b6e-495d-80f7-77fcddbb33b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Logging">
+      <UniqueIdentifier>{070e3ad2-6d5f-4c1d-84a1-d71e4593e9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\MediaType">
+      <UniqueIdentifier>{5cb16c3a-33f7-4642-ab43-b9256880c376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\BitmapRendering">
+      <UniqueIdentifier>{af594a67-0d9a-492e-b082-f9567ed4eede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\GeneralBufferHandling">
+      <UniqueIdentifier>{c36910a9-e28d-42a3-8f59-73f4049794e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\JacketPicture">
+      <UniqueIdentifier>{32839695-3f00-4934-8907-07d9ab364a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\THX">
+      <UniqueIdentifier>{e77c31d2-ff17-44c8-b33b-196cc0f2978b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\General">
+      <UniqueIdentifier>{5008507b-13ff-46eb-864f-ea7108af6603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecificHandling\Scaling">
+      <UniqueIdentifier>{28a62927-23a7-48c7-ae3b-4ac1bff10bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8fdbeafd-a4bb-4898-ab93-4548e8520acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pins">
+      <UniqueIdentifier>{64364dee-da0a-4291-bcee-7d63c23c9067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pins\Video">
+      <UniqueIdentifier>{0114268c-6943-4578-bc07-a994542c46fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pins\Subpicture">
+      <UniqueIdentifier>{062da90d-15dc-4049-8fd6-dbe0fb3618e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pins\Line21">
+      <UniqueIdentifier>{ab487ff0-cee9-490a-9e24-66663611e78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pins\Output">
+      <UniqueIdentifier>{fbe06aa1-279d-4faa-9638-7a6cd502e109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{abe6f561-289c-44a9-b9aa-97c2e064ddeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Filter_IVMRMixerControl9.cpp">
+      <Filter>Interfaces\IVMRMixerControl9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IVMRFilterConfig9.cpp">
+      <Filter>Interfaces\IVMRFilterConfig9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IAMFilterMiscFlags.cpp">
+      <Filter>Interfaces\IAMFilterMiscFlags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IKeystone.cpp">
+      <Filter>Interfaces\IKeystone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IKeystoneProcAmp.cpp">
+      <Filter>Interfaces\IKeystoneProcAmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IKeystoneMixer.cpp">
+      <Filter>Interfaces\IKeystoneMixer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IKeystoneQuality.cpp">
+      <Filter>Interfaces\IKeystoneQuality</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filter_IMediaSeeking.cpp">
+      <Filter>Interfaces\IMediaSeeking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropPage_Keystone.cpp">
+      <Filter>PropPage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CKeystone.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gabor_Resizer.cpp">
+      <Filter>VideoProcessing\Scaling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gabor_ShrinkV.cpp">
+      <Filter>VideoProcessing\Scaling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSC_Manual.Cpp">
+      <Filter>VideoProcessing\CSC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Varispeed.cpp">
+      <Filter>SpecificHandling\Varispeed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Telecine.cpp">
+      <Filter>SpecificHandling\Telecine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TicksBurnIn.cpp">
+      <Filter>SpecificHandling\Ticks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GOPTimecode.cpp">
+      <Filter>SpecificHandling\GOPTimecode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrialMixing.cpp">
+      <Filter>SpecificHandling\TrialMixing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Guides.cpp">
+      <Filter>SpecificHandling\Guides</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OnScreenDisplay.cpp">
+      <Filter>SpecificHandling\OnScreenDisplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SampleGrabbing.cpp">
+      <Filter>SpecificHandling\SampleGrabbing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framerate.cpp">
+      <Filter>SpecificHandling\Framerate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging.cpp">
+      <Filter>SpecificHandling\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MediaType.cpp">
+      <Filter>SpecificHandling\MediaType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BitmapRender.cpp">
+      <Filter>SpecificHandling\BitmapRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BufferColor.cpp">
+      <Filter>SpecificHandling\GeneralBufferHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BufferCopy.cpp">
+      <Filter>SpecificHandling\GeneralBufferHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BufferSave.cpp">
+      <Filter>SpecificHandling\GeneralBufferHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MPEG2Decoder_libmpeg2.cpp">
+      <Filter>SpecificHandling\JacketPicture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MPEG2Decoder_mpegstill.cpp">
+      <Filter>SpecificHandling\JacketPicture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BarData.cpp">
+      <Filter>SpecificHandling\THX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General.cpp">
+      <Filter>SpecificHandling\General</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scaling.cpp">
+      <Filter>SpecificHandling\Scaling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\appincludes.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoPin.cpp">
+      <Filter>Pins\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoPin_Connected.cpp">
+      <Filter>Pins\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoPin_IKsPropertySet.cpp">
+      <Filter>Pins\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SubpicturePin.cpp">
+      <Filter>Pins\Subpicture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SubpicturePin_Allocator.cpp">
+      <Filter>Pins\Subpicture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SubpicturePin_IVMRStreamControl9.cpp">
+      <Filter>Pins\Subpicture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Line21Pin.cpp">
+      <Filter>Pins\Line21</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Line21Pin_IVMRVideoStreamControl.cpp">
+      <Filter>Pins\Line21</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Line21Pin_SampleQueue.cpp">
+      <Filter>Pins\Line21</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputPin.cpp">
+      <Filter>Pins\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputPin_Connected.cpp">
+      <Filter>Pins\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pipeline_Core.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pipeline_DVDSubpicture.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pipeline_Line21.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pipeline_Video.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Filter_IKeystone.h">
+      <Filter>Interfaces\IKeystone</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Filter_IKeystoneProcAmp.h">
+      <Filter>Interfaces\IKeystoneProcAmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Filter_IKeystoneMixer.h">
+      <Filter>Interfaces\IKeystoneMixer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Filter_IKeystoneQuality.h">
+      <Filter>Interfaces\IKeystoneQuality</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropPage_Keystone.h">
+      <Filter>PropPage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropPage_resource.h">
+      <Filter>PropPage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CommonStructures.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dshowutility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\round.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CKeystone.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProcAmp.h">
+      <Filter>VideoProcessing\ProcAmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mixer.h">
+      <Filter>VideoProcessing\Mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSC_Manual.h">
+      <Filter>VideoProcessing\CSC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorFilters.h">
+      <Filter>VideoProcessing\ColorFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SentinelKeys.h">
+      <Filter>Dongle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SentinelKeysLicense.h">
+      <Filter>Dongle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SentinelKeystypes.h">
+      <Filter>Dongle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MPEG2Decoder_libmpeg2.h">
+      <Filter>SpecificHandling\JacketPicture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\appincludes.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Keystone_uids.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoPin.h">
+      <Filter>Pins\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SubpicturePin.h">
+      <Filter>Pins\Subpicture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SubpicturePin_Allocator.h">
+      <Filter>Pins\Subpicture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Line21Pin.h">
+      <Filter>Pins\Line21</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputPin.h">
+      <Filter>Pins\Output</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Keystone_Properties.rc">
+      <Filter>PropPage</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\PropPage_Keystone.aps">
+      <Filter>PropPage</Filter>
+    </None>
+    <None Include="src\PropPage_SMT_Keystone.bmp">
+      <Filter>PropPage</Filter>
+    </None>
+    <None Include="src\CKeystone.def">
+      <Filter>Utility</Filter>
+    </None>
+  </ItemGroup>
+</Project>

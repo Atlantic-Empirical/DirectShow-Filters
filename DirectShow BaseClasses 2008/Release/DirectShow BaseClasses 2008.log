@@ -1,0 +1,83 @@
+﻿Build started 6/29/2012 10:32:33 PM.
+     1>Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\DirectShow BaseClasses 2008.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\DirectShow BaseClasses 2008.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\DirectShow BaseClasses 2008.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\src /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\amextra.cpp src\amfilter.cpp src\amvideo.cpp src\arithutil.cpp src\combase.cpp src\cprop.cpp src\ctlutil.cpp src\ddmm.cpp src\dllentry.cpp src\dllsetup.cpp src\mtype.cpp src\outputq.cpp src\perflog.cpp src\pstream.cpp src\pullpin.cpp src\refclock.cpp src\renbase.cpp src\schedule.cpp src\seekpt.cpp src\source.cpp src\strmctl.cpp src\sysclock.cpp src\transfrm.cpp src\transip.cpp src\videoctl.cpp src\vtrans.cpp src\winctrl.cpp src\winutil.cpp src\wxdebug.cpp src\wxlist.cpp src\wxutil.cpp
+         amextra.cpp
+         amfilter.cpp
+         amvideo.cpp
+         arithutil.cpp
+         combase.cpp
+         cprop.cpp
+         ctlutil.cpp
+         ddmm.cpp
+         dllentry.cpp
+         dllsetup.cpp
+         mtype.cpp
+         outputq.cpp
+         perflog.cpp
+         pstream.cpp
+         pullpin.cpp
+         refclock.cpp
+         renbase.cpp
+         schedule.cpp
+         seekpt.cpp
+         source.cpp
+         Generating Code...
+         Compiling...
+         strmctl.cpp
+         sysclock.cpp
+         transfrm.cpp
+         transip.cpp
+         videoctl.cpp
+         vtrans.cpp
+         winctrl.cpp
+         winutil.cpp
+         wxdebug.cpp
+         wxlist.cpp
+         wxutil.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\strmbase.lib" strmiids.lib /NOLOGO Release\amextra.obj
+         Release\amfilter.obj
+         Release\amvideo.obj
+         Release\arithutil.obj
+         Release\combase.obj
+         Release\cprop.obj
+         Release\ctlutil.obj
+         Release\ddmm.obj
+         Release\dllentry.obj
+         Release\dllsetup.obj
+         Release\mtype.obj
+         Release\outputq.obj
+         Release\perflog.obj
+         Release\pstream.obj
+         Release\pullpin.obj
+         Release\refclock.obj
+         Release\renbase.obj
+         Release\schedule.obj
+         Release\seekpt.obj
+         Release\source.obj
+         Release\strmctl.obj
+         Release\sysclock.obj
+         Release\transfrm.obj
+         Release\transip.obj
+         Release\videoctl.obj
+         Release\vtrans.obj
+         Release\winctrl.obj
+         Release\winutil.obj
+         Release\wxdebug.obj
+         Release\wxlist.obj
+         Release\wxutil.obj
+         DirectShow BaseClasses 2008.vcxproj -> C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\Release\strmbase.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\DirectShow BaseClasses 2008.unsuccessfulbuild".
+         Touching "Release\DirectShow BaseClasses 2008.lastbuildstate".
+     1>Done Building Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\DirectShow BaseClasses 2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.68

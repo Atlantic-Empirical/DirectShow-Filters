@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{00895b3a-7168-4b35-9f9d-b862d7640bcf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c9b95ebf-8008-4c90-9aa6-055ff607d58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e4bb2cbd-e730-47ab-af28-b00af865e109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\IL21G.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L21G.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\IL21G.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L21G.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\appincludes.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\L21G.def">
+      <Filter>Core</Filter>
+    </None>
+  </ItemGroup>
+</Project>

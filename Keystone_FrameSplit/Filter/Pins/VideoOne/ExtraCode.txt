@@ -1,0 +1,131 @@
+	////First see if the side buffer is holding anything, if yes then copy in fields from this sample and send the buffer
+	////with ThreeTwoSample
+	//if(!s_buffer_empty)
+	//{
+	//	extract(s_buffer_status, src);
+	//	ThreeTwoSample(pOut, r1);
+	//	//if (FAILED(hr)) return hr;
+	//	//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: Delivered 3:2 Sample.")));
+	//}
+
+	//if (repeat_first_field)
+	//{
+	//	if (progressive_sequence)
+	//	{
+	//		if (top_field_first)
+	//		{
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=1, tff=1. Output three identical progressive frames.")));
+	//		}
+	//		else
+	//		{
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=1, tff=0. Output two identical progressive frames.")));
+	//		}
+	//	}
+	//	else
+	//	{
+	//		if (progressive_frame)
+	//		{
+	//			//3:2
+	//			//Use the side buffer so this frame becomes three fields
+	//			//need to use TFF here
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=0, pf=1. DO 3:2.")));
+	//			extract(top_field_first, src);
+	//		}
+	//		else
+	//		{
+	//			//ERROR: repeat_first_field should not be 1 when we're interlaced
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=0, pf=0. ERROR. RFF should be 0.")));
+	//		}
+	//	}
+	//}
+	//else
+	//{
+	//	if (progressive_sequence)
+	//	{
+	//		if(!top_field_first==0)	DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=1, tff=1. ERROR. TFF should be 0.")));
+	//		//Just deliver one sample
+	//		//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=1, tff=0. JUST DELIVER.")));
+	//	}
+	//	else
+	//	{
+	//		if (progressive_frame)
+	//		{
+	//			//bump according to top_field_first and deliver
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=0, pf=1. BUMP ACCORDING TO TFF")));
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: tff=%d"), top_field_first));
+	//		}
+	//		else
+	//		{
+	//			//just deliver this sample
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=0, pf=0. JUST DELIVER.")));
+	//		}
+	//	}
+	//}
+
+
+
+	////First see if the side buffer is holding anything, if yes then copy in fields from this sample and send the buffer
+	////with ThreeTwoSample
+	//if(!s_buffer_empty)
+	//{
+	//	extract(s_buffer_status, src);
+	//	ThreeTwoSample(pOut, r1);
+	//	//if (FAILED(hr)) return hr;
+	//	//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: Delivered 3:2 Sample.")));
+	//}
+
+	//if (repeat_first_field)
+	//{
+	//	if (progressive_sequence)
+	//	{
+	//		if (top_field_first)
+	//		{
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=1, tff=1. Output three identical progressive frames.")));
+	//		}
+	//		else
+	//		{
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=1, tff=0. Output two identical progressive frames.")));
+	//		}
+	//	}
+	//	else
+	//	{
+	//		if (progressive_frame)
+	//		{
+	//			//3:2
+	//			//Use the side buffer so this frame becomes three fields
+	//			//need to use TFF here
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=0, pf=1. DO 3:2.")));
+	//			extract(top_field_first, src);
+	//		}
+	//		else
+	//		{
+	//			//ERROR: repeat_first_field should not be 1 when we're interlaced
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=1, ps=0, pf=0. ERROR. RFF should be 0.")));
+	//		}
+	//	}
+	//}
+	//else
+	//{
+	//	if (progressive_sequence)
+	//	{
+	//		if(!top_field_first==0)	DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=1, tff=1. ERROR. TFF should be 0.")));
+	//		//Just deliver one sample
+	//		//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=1, tff=0. JUST DELIVER.")));
+	//	}
+	//	else
+	//	{
+	//		if (progressive_frame)
+	//		{
+	//			//bump according to top_field_first and deliver
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=0, pf=1. BUMP ACCORDING TO TFF")));
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: tff=%d"), top_field_first));
+	//		}
+	//		else
+	//		{
+	//			//just deliver this sample
+	//			//DbgLog((LOG_TRACE, 0, TEXT("KEYSTONE: rff=0, ps=0, pf=0. JUST DELIVER.")));
+	//		}
+	//	}
+	//}
+
+	//return ReceiveStep5(pOut, r1);

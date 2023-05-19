@@ -1,0 +1,48 @@
+﻿Build started 6/29/2012 10:33:03 PM.
+     1>Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AudioSource 2008\AudioSource 2008.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\AudioSource 2008.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\AudioSource 2008.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\DirectShow BaseClasses 2008\src" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D INC_OLE2 /D STRICT /D _WIN32 /D _MT /D _DLL /D _X86_=1 /D REGISTER_FILTER /D _WINDLL /D _MBCS /D _AFXDLL /GF- /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\DTSAC3Source.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt src\BaseSource.cpp src\DTSAC3Source.cpp src\stdafx.cpp
+         BaseSource.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\tpf\google drive\code\smt\filters\audiosource 2008\src\BaseSource.h(80): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+                 c:\users\tpf\google drive\code\smt\filters\audiosource 2008\src\BaseSource.h(74) : while compiling class template member function 'HRESULT CBaseSource<TStream>::GetCurFile(LPOLESTR *,AM_MEDIA_TYPE *)'
+                 with
+                 [
+                     TStream=CDTSAC3Stream
+                 ]
+                 c:\users\tpf\google drive\code\smt\filters\audiosource 2008\src\DTSAC3Source.h(28) : see reference to class template instantiation 'CBaseSource<TStream>' being compiled
+                 with
+                 [
+                     TStream=CDTSAC3Stream
+                 ]
+     1>src\BaseSource.cpp(149): warning C4244: 'initializing' : conversion from 'REFERENCE_TIME' to 'int', possible loss of data
+         DTSAC3Source.cpp
+     1>src\DTSAC3Source.cpp(356): warning C4018: '<' : signed/unsigned mismatch
+         stdafx.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _AFXDLL /l"0x0409" /nologo /fo"Release\dtsac3source.res" src\dtsac3source.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\DTSAC3Source.ax" /INCREMENTAL:NO /NOLOGO "..\DirectShow BaseClasses 2008\Release\strmbase.lib" msvcrt.lib quartz.lib vfw32.lib winmm.lib version.lib comctl32.lib olepro32.lib /DEF:".\src\DTSAC3Source.def" /MANIFEST /ManifestFile:"Release\DTSAC3Source.ax.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AudioSource 2008\Release\DTSAC3Source.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\DTSAC3Source.lib" /MACHINE:X86 /DLL Release\dtsac3source.res
+         Release\BaseSource.obj
+         Release\DTSAC3Source.obj
+         Release\stdafx.obj
+         "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\DirectShow BaseClasses 2008\Release\strmbase.lib"
+            Creating library Release\DTSAC3Source.lib and object Release\DTSAC3Source.exp
+         AudioSource 2008.vcxproj -> C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AudioSource 2008\Release\DTSAC3Source.ax
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\DTSAC3Source.ax;#2" /manifest Release\DTSAC3Source.ax.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       RegisterOutput:
+         regsvr32 /s "Release\DTSAC3Source.ax"
+       FinalizeBuildStatus:
+         Deleting file "Release\AudioSource 2008.unsuccessfulbuild".
+         Touching "Release\AudioSource 2008.lastbuildstate".
+     1>Done Building Project "C:\Users\Tpf\Google Drive\CODE\SMT\Filters\AudioSource 2008\AudioSource 2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.67

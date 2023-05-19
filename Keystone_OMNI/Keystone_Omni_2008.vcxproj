@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C4361DD-2215-415A-8472-813491B8E8F3}</ProjectGuid>
+    <RootNamespace>Keystone_OMNI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.ax</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Keystone_OMNI</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>Keystone.tlb</TypeLibraryName>
+      <OutputDirectory>.\Interface\</OutputDirectory>
+      <HeaderFileName>%(Filename)_h.h</HeaderFileName>
+      <DllDataFileName>dlldata.c</DllDataFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\DirectShow BaseClasses 2008\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0501;WINVER=0x0501;DBG=1;DEBUG;_DEBUG;INC_OLE2;STRICT;WIN32;_WIN32;_MT;_DLL;_X86_=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>appincludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\$(Configuration)/Keystone_OMNI.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>.\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>.\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>..\DirectShow BaseClasses 2008\debug\strmbasd.lib;src\SentinelKeyW.lib;msvcrtd.lib;quartz.lib;vfw32.lib;winmm.lib;version.lib;comctl32.lib;olepro32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(Configuration)\Keystone_OMNI.ax</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>src\CKeystone.def</ModuleDefinitionFile>
+      <MergedIDLBaseFileName>
+      </MergedIDLBaseFileName>
+      <TypeLibraryFile>
+      </TypeLibraryFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\$(Configuration)/Keystone_Omni.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>Keystone.tlb</TypeLibraryName>
+      <OutputDirectory>.\Interface\</OutputDirectory>
+      <HeaderFileName>%(Filename)_h.h</HeaderFileName>
+      <DllDataFileName>dlldata.c</DllDataFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\DirectShow BaseClasses 2008\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0400;WINVER=0x0400;INC_OLE2;STRICT;WIN32;_WIN32;_MT;_DLL;_X86_=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>appincludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\$(Configuration)/Keystone_OMNI.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>.\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>.\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>..\DirectShow BaseClasses 2008\release\strmbase.lib;.\src\SentinelKeyW.lib;msvcrt.lib;quartz.lib;vfw32.lib;winmm.lib;version.lib;comctl32.lib;olepro32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>.\$(Configuration)\Keystone_OMNI.ax</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\src\CKeystone.def</ModuleDefinitionFile>
+      <MergedIDLBaseFileName>
+      </MergedIDLBaseFileName>
+      <TypeLibraryFile>
+      </TypeLibraryFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\$(Configuration)/Keystone_OMNI.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Filter_IVMRMixerControl9.cpp" />
+    <ClCompile Include="src\Filter_IVMRFilterConfig9.cpp" />
+    <ClCompile Include="src\Filter_IAMFilterMiscFlags.cpp" />
+    <ClCompile Include="src\Filter_IKeystone.cpp" />
+    <ClCompile Include="src\Filter_IKeystoneProcAmp.cpp" />
+    <ClCompile Include="src\Filter_IKeystoneMixer.cpp" />
+    <ClCompile Include="src\Filter_IKeystoneQuality.cpp" />
+    <ClCompile Include="src\Filter_IMediaSeeking.cpp" />
+    <ClCompile Include="src\PropPage_Keystone.cpp" />
+    <ClCompile Include="src\CKeystone.cpp" />
+    <ClCompile Include="src\Gabor_Resizer.cpp" />
+    <ClCompile Include="src\Gabor_ShrinkV.cpp" />
+    <ClCompile Include="src\CSC_Manual.Cpp" />
+    <ClCompile Include="src\Varispeed.cpp" />
+    <ClCompile Include="src\Telecine.cpp" />
+    <ClCompile Include="src\TicksBurnIn.cpp" />
+    <ClCompile Include="src\GOPTimecode.cpp" />
+    <ClCompile Include="src\TrialMixing.cpp" />
+    <ClCompile Include="src\Guides.cpp" />
+    <ClCompile Include="src\OnScreenDisplay.cpp" />
+    <ClCompile Include="src\SampleGrabbing.cpp" />
+    <ClCompile Include="src\Framerate.cpp" />
+    <ClCompile Include="src\Logging.cpp" />
+    <ClCompile Include="src\MediaType.cpp" />
+    <ClCompile Include="src\BitmapRender.cpp" />
+    <ClCompile Include="src\BufferColor.cpp" />
+    <ClCompile Include="src\BufferCopy.cpp" />
+    <ClCompile Include="src\BufferSave.cpp" />
+    <ClCompile Include="src\MPEG2Decoder_libmpeg2.cpp" />
+    <ClCompile Include="src\MPEG2Decoder_mpegstill.cpp" />
+    <ClCompile Include="src\BarData.cpp" />
+    <ClCompile Include="src\General.cpp" />
+    <ClCompile Include="src\Scaling.cpp" />
+    <ClCompile Include="src\appincludes.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\VideoPin.cpp" />
+    <ClCompile Include="src\VideoPin_Connected.cpp" />
+    <ClCompile Include="src\VideoPin_IKsPropertySet.cpp" />
+    <ClCompile Include="src\SubpicturePin.cpp" />
+    <ClCompile Include="src\SubpicturePin_Allocator.cpp" />
+    <ClCompile Include="src\SubpicturePin_IVMRStreamControl9.cpp" />
+    <ClCompile Include="src\Line21Pin.cpp" />
+    <ClCompile Include="src\Line21Pin_IVMRVideoStreamControl.cpp" />
+    <ClCompile Include="src\Line21Pin_SampleQueue.cpp" />
+    <ClCompile Include="src\OutputPin.cpp" />
+    <ClCompile Include="src\OutputPin_Connected.cpp" />
+    <ClCompile Include="src\Pipeline_Core.cpp" />
+    <ClCompile Include="src\Pipeline_DVDSubpicture.cpp" />
+    <ClCompile Include="src\Pipeline_Line21.cpp" />
+    <ClCompile Include="src\Pipeline_Video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Filter_IKeystone.h" />
+    <ClInclude Include="src\Filter_IKeystoneProcAmp.h" />
+    <ClInclude Include="src\Filter_IKeystoneMixer.h" />
+    <ClInclude Include="src\Filter_IKeystoneQuality.h" />
+    <ClInclude Include="src\PropPage_Keystone.h" />
+    <ClInclude Include="src\PropPage_resource.h" />
+    <ClInclude Include="src\CommonStructures.h" />
+    <ClInclude Include="src\dshowutility.h" />
+    <ClInclude Include="src\resource.h" />
+    <ClInclude Include="src\round.h" />
+    <ClInclude Include="src\CKeystone.h" />
+    <ClInclude Include="src\ProcAmp.h" />
+    <ClInclude Include="src\Mixer.h" />
+    <ClInclude Include="src\CSC_Manual.h" />
+    <ClInclude Include="src\ColorFilters.h" />
+    <ClInclude Include="src\SentinelKeys.h" />
+    <ClInclude Include="src\SentinelKeysLicense.h" />
+    <ClInclude Include="src\SentinelKeystypes.h" />
+    <ClInclude Include="src\MPEG2Decoder_libmpeg2.h" />
+    <ClInclude Include="src\appincludes.h" />
+    <ClInclude Include="src\Keystone_uids.h" />
+    <ClInclude Include="src\VideoPin.h" />
+    <ClInclude Include="src\SubpicturePin.h" />
+    <ClInclude Include="src\SubpicturePin_Allocator.h" />
+    <ClInclude Include="src\Line21Pin.h" />
+    <ClInclude Include="src\OutputPin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Keystone_Properties.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\PropPage_Keystone.aps" />
+    <None Include="src\PropPage_SMT_Keystone.bmp" />
+    <None Include="src\CKeystone.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectShow BaseClasses 2008\DirectShow BaseClasses 2008.vcxproj">
+      <Project>{e8a3f6fa-ae1c-4c8e-a0b6-9c8480324eaa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PropPage\Keystone_prop.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
